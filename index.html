@@ -1,26 +1,109 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>leafy-life-product-showcase</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-
-    <meta property="og:title" content="leafy-life-product-showcase" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <title>绿叶生活 - 植物培养指南</title>
+    <meta name="description" content="学习如何培养和照顾各种植物，订阅我们的产品，让您的生活更加绿色。" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>绿叶生活</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">首页</a></li>
+            <li><a href="guides.html">植物指南</a></li>
+            <li><a href="products.html">产品订阅</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>探索植物的奥秘</h2>
+          <p>了解如何培养和照顾各种植物，让您的家充满绿意和生机</p>
+          <a href="guides.html" class="btn">查看培养指南</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title">特色植物</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <img src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?w=500&auto=format&fit=crop&q=60" alt="多肉植物" />
+            <h3>多肉植物</h3>
+            <p>多肉植物以其独特的形态和易于照顾而备受欢迎，是初学者的理想选择。</p>
+            <a href="guides.html#succulents" class="btn-small">了解更多</a>
+          </div>
+          <div class="feature-card">
+            <img src="https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=500&auto=format&fit=crop&q=60" alt="室内观叶植物" />
+            <h3>室内观叶植物</h3>
+            <p>观叶植物能净化空气，为室内环境增添自然气息，提高生活质量。</p>
+            <a href="guides.html#indoor" class="btn-small">了解更多</a>
+          </div>
+          <div class="feature-card">
+            <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=500&auto=format&fit=crop&q=60" alt="花卉植物" />
+            <h3>花卉植物</h3>
+            <p>各种鲜花为您的家增添色彩和香气，创造愉悦的生活环境。</p>
+            <a href="guides.html#flowers" class="btn-small">了解更多</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container">
+        <div class="newsletter-content">
+          <h2>订阅我们的植物培养通讯</h2>
+          <p>定期获取植物护理技巧、季节性建议和产品更新</p>
+          <form id="newsletter-form">
+            <input type="email" placeholder="您的电子邮箱" required />
+            <button type="submit" class="btn">订阅</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>绿叶生活</h2>
+            <p>让植物融入您的生活</p>
+          </div>
+          <div class="footer-links">
+            <h3>快速链接</h3>
+            <ul>
+              <li><a href="index.html">首页</a></li>
+              <li><a href="guides.html">植物指南</a></li>
+              <li><a href="products.html">产品订阅</a></li>
+              <li><a href="contact.html">联系我们</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>联系我们</h3>
+            <p>邮箱: info@leafylife.com</p>
+            <p>电话: 123-456-7890</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 绿叶生活. 保留所有权利.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

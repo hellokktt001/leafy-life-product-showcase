@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>联系我们 - 绿叶生活</title>
+    <meta name="description" content="有疑问或建议？联系绿叶生活团队，我们期待听到您的声音。" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1>绿叶生活</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="guides.html">植物指南</a></li>
+            <li><a href="products.html">产品订阅</a></li>
+            <li><a href="contact.html" class="active">联系我们</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="page-header">
+      <div class="container">
+        <h2>联系我们</h2>
+        <p>有任何问题或建议？请随时与我们联系</p>
+      </div>
+    </section>
+
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h3>联系方式</h3>
+            <div class="info-item">
+              <h4>电子邮件</h4>
+              <p>info@leafylife.com</p>
+            </div>
+            <div class="info-item">
+              <h4>电话</h4>
+              <p>123-456-7890</p>
+            </div>
+            <div class="info-item">
+              <h4>工作时间</h4>
+              <p>周一至周五: 9:00 - 18:00</p>
+              <p>周六: 10:00 - 16:00</p>
+              <p>周日: 休息</p>
+            </div>
+            <div class="info-item">
+              <h4>地址</h4>
+              <p>中国 上海市 浦东新区 xxx路 123号</p>
+            </div>
+          </div>
+          
+          <div class="contact-form">
+            <h3>给我们留言</h3>
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name">姓名</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">电子邮件</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">主题</label>
+                <select id="subject" name="subject">
+                  <option value="general">一般咨询</option>
+                  <option value="subscription">订阅相关</option>
+                  <option value="plant-care">植物护理咨询</option>
+                  <option value="feedback">意见反馈</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">留言内容</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn">发送留言</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="container">
+        <h3 class="section-title">常见问题</h3>
+        <div class="faq-list">
+          <div class="faq-item">
+            <h4 class="faq-question">订阅产品多久可以收到？</h4>
+            <p class="faq-answer">通常在您完成订阅后的3-5个工作日内发货，具体送达时间取决于您的收货地址。</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">如何取消或更改我的订阅？</h4>
+            <p class="faq-answer">您可以登录账户在"我的订阅"页面进行更改或取消。也可以发送邮件至客服邮箱，我们会在24小时内处理您的请求。</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">如果收到的植物有损坏怎么办？</h4>
+            <p class="faq-answer">请在收到包裹后24小时内拍照并联系我们的客服，我们会立即为您安排补发或退款。</p>
+          </div>
+          <div class="faq-item">
+            <h4 class="faq-question">是否提供定制化的植物订阅服务？</h4>
+            <p class="faq-answer">是的，我们提供定制服务。您可以在订阅时填写植物偏好表格，或联系我们的客服团队详细说明您的需求。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>绿叶生活</h2>
+            <p>让植物融入您的生活</p>
+          </div>
+          <div class="footer-links">
+            <h3>快速链接</h3>
+            <ul>
+              <li><a href="index.html">首页</a></li>
+              <li><a href="guides.html">植物指南</a></li>
+              <li><a href="products.html">产品订阅</a></li>
+              <li><a href="contact.html">联系我们</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>联系我们</h3>
+            <p>邮箱: info@leafylife.com</p>
+            <p>电话: 123-456-7890</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 绿叶生活. 保留所有权利.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
